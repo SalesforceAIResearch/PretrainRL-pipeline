@@ -1,10 +1,12 @@
 # Webscale-RL Data Pipeline
 
 [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-red?style=for-the-badge&.svg)](https://arxiv.org/abs/1234.56789)
-[![](https://img.shields.io/badge/Dataset-WebscaleRL-yellow?style=for-the-badge&logo=dataset&logoColor=white)](https://huggingface.co/)
+[![](https://img.shields.io/badge/Dataset-WebscaleRL-yellow?style=for-the-badge&logo=dataset&logoColor=white)](https://huggingface.co/datasets/Salesforce/Webscale-RL)
 
 
 An automated data pipeline aims to scale up the RL datasets for LLM training to the webscale. It converts pretraining data into reinforcement learning (RL) datasets with question-answer format. It enables the creation of pretrain-scale RL datasets for LLM training while maintaining the diversity and quality of the original pretraining data.
+
+**Note: The dataset we released was generated using GPT and should not be used to develop models that compete with OpenAI.**
 
 ## 🎯 Overview
 
@@ -56,7 +58,7 @@ The Webscale-RL pipeline employs a multi-stage approach to transform diverse pre
 
 ### Basic Usage (Single API Calls)
 
-For standard processing with individual API calls:
+For standard processing with individual API calls, remember to change the logic of loading the pretrain data to your own pretrain data in `main.py`.
 
 ```bash
 python main.py \
