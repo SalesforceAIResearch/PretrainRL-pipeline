@@ -1,6 +1,6 @@
 # Webscale-RL Data Pipeline
 
-[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-red?style=for-the-badge&.svg)](https://arxiv.org/abs/1234.56789)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.06499-red?style=for-the-badge&.svg)](https://arxiv.org/abs/2510.06499)
 [![](https://img.shields.io/badge/Dataset-WebscaleRL-yellow?style=for-the-badge&logo=dataset&logoColor=white)](https://huggingface.co/datasets/Salesforce/Webscale-RL)
 
 
