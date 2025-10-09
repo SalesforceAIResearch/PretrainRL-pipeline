@@ -131,3 +131,26 @@ The pipeline includes multiple quality control mechanisms:
 - Pre-filtering to remove low-quality pretraining materials
 - Semantic validation for answer correctness
 - Information leakage detection to prevent information leakage from question to answer
+
+## 📊 Webscale-RL Dataset
+
+We construct the [Webscale-RL dataset](https://huggingface.co/datasets/Salesforce/Webscale-RL) by the pipeline, which contains ~1.2M samples with following distributions (we did not release the data converted from Stack-v2 due to license issues):
+
+<div align="center">
+<img src="assets/domain_pie.png" alt="Webscale-RL Dataset" width="50%">
+</div>
+
+While this dataset contains ~1M samples, we can easily scale up the dataset size further to pretraining level with our pipeline.
+
+## 📝 Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{cen2025webscalerl,
+  title={Webscale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels},
+  author={Zhepeng Cen and Haolin Chen and Shiyu Wang and Zuxin Liu and Zhiwei Liu and Ding Zhao and Silvio Savarese and Caiming Xiong and Huan Wang and Weiran Yao},
+  journal={arXiv preprint arXiv:2510.06499},
+  year={2025},
+}
+```
